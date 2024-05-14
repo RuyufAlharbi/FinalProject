@@ -1,0 +1,82 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f3f3; /* Soft pink background */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background: #feeafa; /* Light pastel purple */
+    color: #404040;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #6a1b9a; /* Deep purple for contrast */
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #d81b60; /* Soft pink accent on hover */
+}
+
+main {
+    margin: 20px;
+}
+
+.gallery img {
+    width: 100%; /* Responsive images */
+    max-width: 300px; /* Maximum width */
+    margin: 10px;
+    border: 3px solid #dedede; /* Light grey border */
+    padding: 5px;
+}
+
+.gallery p {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #feeafa; /* Matching the header */
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 5px solid #6a1b9a;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
